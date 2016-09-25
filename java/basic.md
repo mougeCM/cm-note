@@ -1,7 +1,7 @@
 # Java基础
 
 ---
-## 1. jdk各个版本特性
+## 1. JDK各个版本特性
 
 - jdk1.0: java虚拟机，applet，awt
 - jdk1.1: JDBC,JavaBeans,RMI,内部类，反射
@@ -30,8 +30,10 @@
     Map 
         ├Hashtable 
         ├HashMap 
+            ├ConcurrentHashMap
+            ├WeakHashMap
+            └LinkedHashMap
         ├TreeMap
-        └LinkedHashMap
 ```
 ### List
    List是有序的collection,允许重复元素,使用此接口能够精确的控制元素的插入位置.
@@ -74,10 +76,20 @@
 
 #### TreeSet
    有序的集合
-   TreeSet描述的是Set的一种变体——可以实现**排序等功能**的集合，它将对象元素添加到集合中时会自动按照某种比较规则将其插入到有序的对象序列中，
+   TreeSet描述的是Set的一种变体——可以实现**排序等功能**的集合，它将对象元素添加到集合中时会自动按照某种比较规则将其插入到有序的对象序列中.
 
 ### Map
-   [参考资料](http://tech.meituan.com/java-hashmap.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+   [有关的技术博客](http://tech.meituan.com/java-hashmap.html?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+------
+
+## 3.Java引用
+------
+[有关技术博客](http://droidyue.com/blog/2014/10/12/understanding-weakreference-in-java/index.html)
+> 强引用
+> 软引用
+> 弱引用
+> 虚引用---和弱引用的区别在于,必须结合引用队列观察gc的活动情况
+
 ------
 
 **推荐书籍:深入理解Java虚拟机**
