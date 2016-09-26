@@ -1,11 +1,11 @@
 # Java基础
 
----
+------
 ## 1. JDK各个版本特性
 
 - jdk1.0: java虚拟机，applet，awt
 - jdk1.1: JDBC,JavaBeans,RMI,内部类，反射
-- jdk1.2: 技术体系拆分J2ME(桌面级平台),J2SE(移动端平台),J2EE企业级平台)，EJB
+- jdk1.2: 技术体系拆分J2ME(桌面级平台),J2SE(移动端平台),J2EE(企业级平台)，EJB
 - jdk1.3: Timer api,JNDI,RMI,Java 2D api
 - jdk1.4: 正则表达式，NIO,异常链，日志类
 - jdk1.5: 自动装拆箱，范型,动态注解，枚举，可变参数，(foreach循环)，提供了java.util.concurrent并发包
@@ -91,6 +91,26 @@
 > 软引用
 > 弱引用
 > 虚引用---和弱引用的区别在于,必须结合引用队列观察gc的活动情况
+
+------
+
+## 4.异常
+------
+![一张图理解异常](http://uploadfiles.nowcoder.com/images/20151113/140047_1447376765880_373DC390B08E99ABC340DB1F78F35FCB)
+
+------
+
+## 5.类加载器
+------
+Bootstrap
+> 根加载器(Bootstrap ClassLoader): 负责加载$JAVA_HOME中jre/lib/rt.jar里所有的class
+> 扩展加载器(Extension ClassLoader): 负责Java平台中扩展功能的一些jar包,包括$JAVA_HOME/jre/lib/*.jar或者
+-Djava.ext.dirs指定目录下的jar包
+> 应用加载器(App ClassLoader): 负责记载classpath中指定的jar包及目录中class
+> 自定义加载器(Custom ClassLoader): 属于应用程序根据自身需要自定义的ClassLoader，如tomcat,jboss都会根据j2ee规范自行实现ClassLoader
+<i class="icon-share"></i>
+    加载过程中会先检查类是否被已加载，检查顺序是自底向上，从Custom ClassLoader到BootStrap ClassLoader逐层检查，
+只要某个classloader已加载就视为已加载此类，保证此类只所有ClassLoader加载一次。而加载的顺序是自顶向下，也就是由上层来逐层尝试加载此类。
 
 ------
 
