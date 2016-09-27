@@ -102,15 +102,56 @@
 
 ## 5.类加载器
 ------
-Bootstrap
 > 根加载器(Bootstrap ClassLoader): 负责加载$JAVA_HOME中jre/lib/rt.jar里所有的class
-> 扩展加载器(Extension ClassLoader): 负责Java平台中扩展功能的一些jar包,包括$JAVA_HOME/jre/lib/*.jar或者
--Djava.ext.dirs指定目录下的jar包
+> 扩展加载器(Extension ClassLoader): 负责Java平台中扩展功能的一些jar包,包括$JAVA_HOME/jre/lib/*.jar或者-Djava.ext.dirs指定目录下的jar包
 > 应用加载器(App ClassLoader): 负责记载classpath中指定的jar包及目录中class
 > 自定义加载器(Custom ClassLoader): 属于应用程序根据自身需要自定义的ClassLoader，如tomcat,jboss都会根据j2ee规范自行实现ClassLoader
 <i class="icon-share"></i>
     加载过程中会先检查类是否被已加载，检查顺序是自底向上，从Custom ClassLoader到BootStrap ClassLoader逐层检查，
 只要某个classloader已加载就视为已加载此类，保证此类只所有ClassLoader加载一次。而加载的顺序是自顶向下，也就是由上层来逐层尝试加载此类。
+
+------
+
+## 6.垃圾回收
+------
+[参考资料](http://mm.fancymore.com/reading/G1-CMS%E5%9E%83%E5%9C%BE%E7%AE%97%E6%B3%95.html)
+年轻代的gc实现(Minor GC):
+    Serial,ParNew,Parallel Scavenge
+老年代的gc实现(Full GC):
+    Serial Old,Parallel Old,CMS
+    
+新生代基本采用复制算法，老年代采用标记整理算法。cms采用标记清理。
+### CMS垃圾收集器
+```
+   CMS用于年老代回收,目标是减少应用的暂停时间,减少full gc发生的几率,利用和应用程序线程并发的垃圾回收来标记
+清除年老代
+   回收顺序:
+      (1)初始阶段(initial mark):使所有应用线程暂停(stop the world)
+      (2)并发标记(concurrent mark):使所有应用线程暂停(stop the world)
+      (3)再次标记(remark)
+      (4)并发清理(concurrent sweep)
+```
+**缺点**
+1.CMS占用CPU资源,CMS并发阶段，它不会导致用户线程停顿，但会因为占用了一部分线程（或CPU资源）而导致应用程序变慢，总吞吐量会降低。
+2.CMS无法处理浮动垃圾**(CMS并发清理阶段,用户线程还在允许,会不断的产生垃圾,这部分垃圾出现在标记过程之后,CMS无法处理它)**,
+可能会导致处理失败而进行另外一次full gc
+3.产生大量的空间碎片
+
+### G1垃圾收集器
+**G1收集器是当今收集器技术发展最前沿的成果，它是一款面向服务端应用的收集器，它能充分利用多CPU、多核环境。
+因此它是一款并行与并发收集器，并且它能建立可预测的停顿时间模型。**
+```
+优势:
+    1.停顿时间可控
+    2.实时性较强，大幅减少了长时间的gc
+    3.一定程度的高吞吐量
+特点:
+    1.并行与并发：利用多CPU、多核缩短Stop-The-World停顿的时间;
+    2.分代收集：分代概念在G1中依然得以保留。
+    3.空间整合：整体基于“标记-整理”，局部（两个Region之间）基于“复制”算法;不会产生空间碎片。
+    4.可预测的停顿：这是G1相对于CMS的另外一大优势，能建立可预测的停顿时间模型，
+能让使用者明确指定在一个长度为M毫秒的时间片段内，消耗在垃圾收集上的时间不得超过N毫秒。
+```
 
 ------
 

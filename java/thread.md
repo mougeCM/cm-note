@@ -21,3 +21,9 @@
 **注意:**JDK1.5之后引入的volatile可以禁止指令重排
 
 ------
+
+------
+3.ThreadLocal
+[技术小黑屋](http://droidyue.com/blog/2016/03/13/learning-threadlocal-in-java/index.html)
+
+------
