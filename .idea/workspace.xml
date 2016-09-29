@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09524c3a-dac2-4ce7-8194-9e2b9691c85b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java/网络通讯.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/加密算法.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据结构.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/basic.md" afterPath="$PROJECT_DIR$/java/basic.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/thread.md" afterPath="$PROJECT_DIR$/java/thread.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/加密算法.md" afterPath="$PROJECT_DIR$/加密算法.md" />
     </list>
     <ignored path="cm-note.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="basic.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="basic.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/basic.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="-0.077279754">
+              <first_editor vertical-scroll-proportion="-0.014851485">
                 <caret line="99" column="47" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
                 <folding />
               </first_editor>
@@ -62,12 +57,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="加密算法.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="加密算法.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/加密算法.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="21" />
+              <first_editor vertical-scroll-proportion="0.38118812">
+                <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -230,8 +225,8 @@
         <option value="$PROJECT_DIR$/basic.md" />
         <option value="$PROJECT_DIR$/java/thread.md" />
         <option value="$PROJECT_DIR$/java/网络通讯.md" />
-        <option value="$PROJECT_DIR$/加密算法.md" />
         <option value="$PROJECT_DIR$/java/basic.md" />
+        <option value="$PROJECT_DIR$/加密算法.md" />
       </list>
     </option>
   </component>
@@ -853,12 +848,12 @@
       <workItem from="1474965061050" duration="1702000" />
       <workItem from="1474979714508" duration="10655000" />
       <workItem from="1475118802821" duration="5315000" />
-      <workItem from="1475136663817" duration="626000" />
+      <workItem from="1475136663817" duration="791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34082000" />
+    <option name="totallyTimeSpent" value="34247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -870,7 +865,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3328767" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3328767" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16720517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1590,11 +1585,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/加密算法.md">
+    <entry file="file://$PROJECT_DIR$/java/basic.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="21" />
+          <first_editor vertical-scroll-proportion="-0.014851485">
+            <caret line="99" column="47" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1604,11 +1599,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/basic.md">
+    <entry file="file://$PROJECT_DIR$/加密算法.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="-0.077279754">
-            <caret line="99" column="47" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
+          <first_editor vertical-scroll-proportion="0.38118812">
+            <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
             <folding />
           </first_editor>
           <second_editor />
