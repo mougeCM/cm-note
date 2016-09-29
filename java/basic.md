@@ -96,7 +96,9 @@
 
 ## 4.异常
 ------
-![一张图理解异常](http://uploadfiles.nowcoder.com/images/20151113/140047_1447376765880_373DC390B08E99ABC340DB1F78F35FCB)
+Java分为可检查异常和不可检查异常.可检查异常需要我们手动的进行捕捉处理，也就是我们用try....catch块进行捕捉处理
+IOException属于可检查异常,Error和runtimeException属于不可检查异常.
+![一张图理解异常](http://img.blog.csdn.net/20151023200049836?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
 
 ------
 
@@ -152,6 +154,24 @@
     4.可预测的停顿：这是G1相对于CMS的另外一大优势，能建立可预测的停顿时间模型，
 能让使用者明确指定在一个长度为M毫秒的时间片段内，消耗在垃圾收集上的时间不得超过N毫秒。
 ```
+
+------
+
+------
+## 7.cgi和servlet的区别
+> 1).cgi每次请求都会产生一个进程,服务完后就销毁;servlet处于服务器进程中,它通过多线程的方式运行service方法;
+> 2).cgi程序不具备平台无关性,只要系统环境变量变化,cgi程序就会瘫痪
+> 3).cgi无连接池,每次都得新建连接,速度慢,servlet有连接池
+
+------
+
+------
+## 8,forward(转发)和redirect(重定向)
+> 1).地址栏:forward还是原来的地址,redirect是新地址
+> 2).数据共享:forward共享,redirect不共享
+> 3).应用:forward登陆,redirect注销
+> 4).效率:forward高,因为redirect发了两次http请求
+
 
 ------
 
