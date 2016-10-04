@@ -4,8 +4,7 @@
     <list default="true" id="09524c3a-dac2-4ce7-8194-9e2b9691c85b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/基础.md" afterPath="$PROJECT_DIR$/java/基础.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/数据库知识.md" afterPath="$PROJECT_DIR$/java/数据库知识.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/数据结构.md" afterPath="$PROJECT_DIR$/数据结构.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/多线程.md" afterPath="$PROJECT_DIR$/java/多线程.md" />
     </list>
     <ignored path="cm-note.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,12 +27,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="基础.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="基础.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/基础.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="209" column="25" selection-start-line="209" selection-start-column="25" selection-end-line="209" selection-end-column="25" />
+              <first_editor vertical-scroll-proportion="0.45544556">
+                <caret line="225" column="64" selection-start-line="225" selection-start-column="64" selection-end-line="225" selection-end-column="64" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -60,12 +59,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="数据库知识.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="数据库知识.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/数据库知识.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.62711865">
-                <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+              <first_editor vertical-scroll-proportion="0.18811882">
+                <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -80,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/正则.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
+              <first_editor vertical-scroll-proportion="0.16256158">
                 <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
                 <folding />
               </first_editor>
@@ -96,8 +95,8 @@
         <entry file="file://$PROJECT_DIR$/java/多线程.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+              <first_editor vertical-scroll-proportion="1.2178218">
+                <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -217,9 +216,10 @@
         <option value="$PROJECT_DIR$/java/basic.md" />
         <option value="$PROJECT_DIR$/java/框架.md" />
         <option value="$PROJECT_DIR$/java/transient.md" />
-        <option value="$PROJECT_DIR$/java/基础.md" />
         <option value="$PROJECT_DIR$/数据结构.md" />
         <option value="$PROJECT_DIR$/java/数据库知识.md" />
+        <option value="$PROJECT_DIR$/java/多线程.md" />
+        <option value="$PROJECT_DIR$/java/基础.md" />
       </list>
     </option>
   </component>
@@ -844,12 +844,12 @@
       <workItem from="1475136663817" duration="5678000" />
       <workItem from="1475335822221" duration="3876000" />
       <workItem from="1475395161674" duration="4080000" />
-      <workItem from="1475402908415" duration="843000" />
+      <workItem from="1475402908415" duration="3327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47933000" />
+    <option name="totallyTimeSpent" value="50417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -862,7 +862,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3328767" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3328767" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16720517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1514,53 +1514,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/基础.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="209" column="25" selection-start-line="209" selection-start-column="25" selection-end-line="209" selection-end-column="25" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/加密算法.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正则.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java/多线程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1584,11 +1542,53 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/正则.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.16256158">
+            <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/数据库知识.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.62711865">
-            <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          <first_editor vertical-scroll-proportion="0.18811882">
+            <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/多线程.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="1.2178218">
+            <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/基础.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.45544556">
+            <caret line="225" column="64" selection-start-line="225" selection-start-column="64" selection-end-line="225" selection-end-column="64" />
             <folding />
           </first_editor>
           <second_editor />
